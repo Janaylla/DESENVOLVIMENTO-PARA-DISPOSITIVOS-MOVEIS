@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_shape_circle"
+        android:title="Círculo"
+        android:icon="@drawable/ic_circle" />
+
+    <item
+        android:id="@+id/menu_shape_square"
+        android:title="Quadrado"
+        android:icon="@drawable/ic_square" />
+
+    <item
+        android:id="@+id/menu_shape_triangle"
+        android:title="Triângulo"
+        android:icon="@drawable/ic_triangle" />
+
+    <item
+        android:id="@+id/menu_shape_line"
+        android:title="Linha"
+        android:icon="@drawable/ic_line" />
+
+    <item
+        android:id="@+id/menu_shape_brush"
+        android:title="Pincel"
+        android:icon="@drawable/ic_brush" />
+</menu>
