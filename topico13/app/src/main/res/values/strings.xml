@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Jogo</string>
+    <string name="play">Jogar</string>
+    <string name="score">Potuação</string>
+    <string name="menu">Menu</string>
+    <string name="settings">Configurações</string>
+    <string name="ball">Bola</string>
+    <string name="bat">Raquete</string>
+    <string name="coins">Moedas</string>>
+    <string name="save">Salvar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="color_options">
+        <item>#FFFFFF</item>
+        <item>#FF0000</item>
+        <item>#00FF00</item>
+        <item>#0000FF</item>
+        <item>#FFFF00</item>
+        <item>#FF00FF</item>
+        <item>#00FFFF</item>
+        <item>#FFA500</item>
+        <item>#008000</item>
+        <item>#800080</item>
+        <item>#FFD700</item>
+        <item>#00FF7F</item>
+        <item>#1E90FF</item>
+        <item>#FF6347</item>
+        <item>#5030ff</item>
+        <item>#FF4500</item>
+        <item>#20B2AA</item>
+        <item>#FF69B4</item>
+        <item>#32CD32</item>
+        <item>#9370DB</item>
+        <item>#48D1CC</item>
+    </string-array>
+
+</resources>

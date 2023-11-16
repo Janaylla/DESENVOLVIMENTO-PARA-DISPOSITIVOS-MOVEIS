@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".view.SettingsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/text"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="4dp"
+            android:gravity="center"
+            android:text="@string/settings" />
+
+        <TextView
+            style="@style/text"
+            android:text="Escolha a opção:" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:paddingHorizontal="16dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btnSettingOptionBall"
+                style="@style/buttonSmall"
+                android:text="@string/ball"
+                android:layout_marginRight="12dp"
+                app:strokeColor="@color/white"
+                app:strokeWidth="4dp" />
+            <Button
+                android:id="@+id/btnSettingOptionBat"
+                style="@style/buttonSmall"
+                android:text="@string/bat"
+                android:layout_marginRight="12dp"
+                app:strokeColor="@color/white"
+                app:strokeWidth="4dp" />
+            <Button
+                android:id="@+id/btnSettingOptionCoins"
+                style="@style/buttonSmall"
+                android:text="@string/coins"
+                android:layout_marginRight="12dp"
+                app:strokeColor="@color/white"
+                app:strokeWidth="4dp" />
+        </LinearLayout>
+
+
+        <TextView
+            style="@style/text"
+            android:text="Escolha a cor:" />
+
+        <GridView
+            android:id="@+id/gridViewColors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:choiceMode="singleChoice"
+            android:clickable="true"
+            android:horizontalSpacing="8dp"
+            android:numColumns="3"
+            android:paddingHorizontal="12dp"
+            android:verticalSpacing="8dp" />
+
+        <Button
+            android:id="@+id/btnSettingSave"
+            style="@style/button"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center|center_horizontal"
+            android:text="@string/save"
+            android:layout_marginTop="12dp"
+            app:strokeColor="@color/white"
+            app:strokeWidth="4dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
